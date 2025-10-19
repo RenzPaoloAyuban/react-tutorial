@@ -4,12 +4,15 @@ import Profile from './components/Profile'
 
 function App() {
   return (
-    <>
-      <div>
-        <h1>Renz Paolo Ayuban - Profile</h1>
+    <div className="app">
+      <header className="app-header">
+        <h1>Famous Filipino People Gallery</h1>
+        <p>Celebrating remarkable Filipinos who have made their mark</p>
+      </header>
+      <div className="gallery">
+        <Profile />
       </div>
-      <Profile />
-    </>
+    </div>
   )
 }
 
