@@ -1,4 +1,3 @@
-/* Reset and Base Styles */
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +17,6 @@ body {
   padding: 0;
 }
 
-/* App Layout */
 .app {
   min-height: 100vh;
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
@@ -46,7 +44,6 @@ body {
   margin: 0 auto;
 }
 
-/* Gallery Layout */
 .gallery {
   padding: 0 2rem 2rem;
 }
@@ -59,7 +56,6 @@ body {
   margin: 0 auto;
 }
 
-/* Profile Card Styles */
 .profile-card {
   background: #fff;
   border-radius: 12px;
@@ -141,7 +137,6 @@ body {
   line-height: 1.5;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .app-header {
     padding: 1.5rem 1rem;
